@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>About Me page</title>
+
+		<!-- External css -->
+		<link rel="stylesheet" type="text/css" href="./about.css">
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap dependencies -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	</head>
+	<body>
+
+		<!-- Start of header -->
+		<header class="sticky-top  sticky-mobile">
+			<!-- Navbar Starts -->
+			<nav class="navbar navbar-expand-md navbar-dark" id="header_bg">
+				<a class="navbar-brand" href="./index.html" id="brand-logo">
+					<img src="./images/logo.jpeg" id="brand-img">
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	 			</button>
+
+	 			<div class="collapse navbar-collapse" id="navbarNav">
+
+	 				<div class="navbar-nav ml-auto">
+				      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				      <a class="nav-link active" href="./About_me.html">About Me</a>
+				      <a class="nav-link" href="./photos.html">Gallery</a>
+				      <a class="nav-link" href="./contact.html">Contact Me</a>
+				    </div>
+			<!-- End of NavBar -->
+		</header>
+		<!-- End of Header -->
+
+		<!-- Main content starts -->
+		<div id="content_bg">
+			<!-- Start of personal Intro -->
+			<div class="container-fluid pt-5">
+				<div class="row ">
+					<div class="d-flex container-fluid flex-column flex-sm-row justify-content-center align-items-center p-3 h-100">
+						<div class=" col-12 col-sm-6 col-md-5 ml-sm-5 ml-1 d-inline-block align-self-strech">						
+							<img src="./images/main_pic.jpg" class="rounded-circle ml-sm-5 ml-3 mb-3 mb-sm-0
+							mt-3 mt-sm-0 mr-3 mr-sm-0" id="main_img">
+						</div>
+						<div class=" col-12 col-sm-6 col-md-5 ml-2 pt-sm-3 pb-5 pl-3 pt-3 pt-sm-0 border-bottom border-info border-left text-secondary d-inline-block border-sm-0">							
+							Hello, I'm Shubham Jadhav a web devloper and third year student at Indian Insitute of Technology, Bombay with majors in Elecrical Department. I'm quite a enthusiastic person and currently working to increase an Enhance my skill set in both tech and non-tech ends. I personally belive in teamwork and love to work in a team. I have done several projects as part of a team and was also part of non-profit student organization(E-cell IIT, Bombay). Currently I'm working on enhancing my technical skills and enjoying this journey of mine.							
+						</div>	
+					</div>				
+				</div>
+				
+			</div>
+			<!-- End of personal Intro -->
+
+			<!-- Start of My Projects -->
+			<div class=" text-light min-vh-100 p-5">
+
+				<div class="row d-flex justify-content-center ">
+							<h3 class="text-center text-light col-11 pb-2" id="projects_bar">My Projects</h3>
+				</div>
+
+				<div class="d-lg-flex justify-content-center p-md-5">
+
+					<!-- Finsearch Card Start -->
+					<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+					  <img src="./images/Forex-1.jpeg" class="card-img-top img-fluid w-100 p-3" id="Finsearch_img">
+					  <div class="card-body text-light">
+					    <h5 class="card-title text-center">Currencies & Commodities</h5> 
+					    <h6 class="card-subtitle text-info mb-2 text-center">(Finance club, IIT Bombay)</h6>
+					    <p class="card-text">A research based project where collaborated as a team of four to gain a brief understanding of Forex and Commodity market and stood among top 15 from 250+ teams. Understood the types of trading, market trends m along with studying some
+						common trading strategies.</p>
+					  </div>
+					</div>
+					<!-- Finsearch Card End -->
+
+					<!-- ProSite Starts -->
+					<div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+					  <img src="./images/frenchise-1.png" class="card-img-top img-fluid w-100 p-3" id="ProSite_img">
+					  <div class="card-body text-light">
+					    <h5 class="card-title text-center">ProSite</h5> 
+					    <h6 class="card-subtitle text-info mb-2 text-center">(Research project, DSSE)</h6>
+					    <p class="card-text">Worked in a team of six members on a business model idea to create an online platform that will work as a matchmaker between Franchises and Franchisors to meet and have a streamlined process to get their contracts done.</p>
+					  </div>
+					</div>
+					<!-- ProSite Card End -->
+
+					<!-- IITB-RISC Card Start -->
+					<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+					  <img src="./images/cpu-1.jpeg" class="card-img-top img-fluid w-100 p-3" id="RISC_img">
+					  <div class="card-body text-light">
+					    <h5 class="card-title text-center">IITB-RISC</h5> 
+					    <h6 class="card-subtitle text-info mb-2 text-center">(Course Project)</h6>
+					    <p class="card-text">A simulation project where we made a simple 16-bit processor which can execute simple instructions in pipelined manner. It follows the standard 6 stages of pipelines (Instruction fetch, instruction decode, register read, execute, memory access, and write back).</p>
+					  </div>
+					</div>
+					<!-- IITB-RISC Card End -->
+						
+				</div>
+			</div>
+			<!-- End of My Projects -->
+		</div>
+
+		<!-- End of content starts -->
+
+		<!-- Footer starts -->
+		<footer class="container-fluid d-block" id="footer_bg">
+			<div class="row d-flex">
+				<div class="col-6 col-md-3 col-lg-2 text-light pl-3 pt-2">
+					<h6>Address:</h6>
+					<p> Hostel-9, IIT Bombay, Powai,
+					400076, Maharashtra</p>
+				</div>
+				<div class="text-center text-light ml-auto col-6 col-md-4 col-lg-3 pt-2 ">
+					<div class="d-block">
+						<h6 class="text-center">Let's connect</h6>
+					</div>
+					<div class="d-flex justify-content-center justify-content-around pt-3 pr-sm-3">
+						<a href="https://www.linkedin.com/in/shubham-jadhav-b6b487241?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXLKKzTtgS7ipFi25NoslzQ%3D%3D">
+							<img src="./images/Linkedin_logo.jpg" width="35" class="rounded">
+						</a>
+						<a href="https://instagram.com/shubh_j0411?igshid=MzNlNGNkZWQ4Mg==">
+							<img src="./images/insta_logo.jpg" width="35" class="rounded">
+						</a>
+						<a href="https://www.facebook.com/people/Shubham-Jadhav/pfbid0hLmxWDfhwh561DiL7fLvGww79D6UagLBkGGJbG4ihSKZjAKSpXirCmJ1c61vZsRil/">
+							<img src="./images/FB.png" width="35" class="rounded">
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+        <!-- Bootstrap-JS Script -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	</body>
+</html>

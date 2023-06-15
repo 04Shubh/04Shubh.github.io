@@ -1,0 +1,40 @@
+/*External Styling for home page*/
+
+
+body{
+	font-family: 'Ubuntu', sans-serif ;
+}
+  
+#brand-logo{
+	height: 60px;
+}
+
+#brand-img{
+	height: 50px;
+}
+
+#main_img{
+	height: 300px;
+	width: 250px;
+	
+}
+
+#header_bg{
+	background-color: #AA1945;
+}
+
+#content_bg{
+	background-color: #FADCD9;
+}
+
+#footer_bg{
+	background-color: #391306;
+}
+
+#main_text_col{
+	/*color: #006633;*/
+	
+}
+
+
+

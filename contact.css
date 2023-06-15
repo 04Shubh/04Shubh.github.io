@@ -1,0 +1,30 @@
+/*External Styling for Contact page*/
+
+body{
+	font-family: 'Ubuntu', sans-serif ;
+}
+
+#header_bg{
+	background-color: #AA1945;
+}
+
+#content_bg{
+	background-color: #FADCD9;
+}
+
+#footer_bg{
+	background-color: #391306;
+}
+
+#brand-logo{
+	height: 60px;
+}
+  
+#brand-img{
+	height: 50px;
+}
+
+#contact_box{
+	border-radius: 10px;
+	background-color: #4ab563;
+}

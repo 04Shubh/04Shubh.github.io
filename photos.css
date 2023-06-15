@@ -1,0 +1,56 @@
+/*External Styling for Gallery page*/
+
+body{
+	font-family: 'Ubuntu', sans-serif ;
+}
+
+#header_bg{
+	background-color: #AA1945;
+}
+
+#content_bg{
+	background-color: #FADCD9;
+}
+
+#footer_bg{
+	background-color: #391306;
+}
+
+#brand-logo{
+	height: 60px;
+}
+  
+#brand-img{
+	height: 50px;
+}
+
+#pic_4{
+	height: 225px;
+	/*width: 250px;*/
+	border-radius: 50px;
+}
+
+#pic3{
+	height: 225px;
+	/*width: 250px;*/
+	border-radius: 50px;
+}
+
+#pic2{
+	height: 225px;
+	/*width: 250px;*/
+	border-radius: 50px;
+}
+
+#pic5{
+	height: 225px;
+	/*width: 250px;*/
+	border-radius: 50px;
+}
+
+#pic7{
+	height: 225px;
+	/*width: 250px;*/
+	border-radius: 50px;
+}
+
